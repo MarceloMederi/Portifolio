@@ -1,5 +1,4 @@
 import React from 'react';
-import profilePhoto from '../../public/Perfil/Perfil.jpg'; // Ajuste o caminho para a imagem
 
 const Header = () => {
     return (
@@ -7,7 +6,7 @@ const Header = () => {
             <section className="ini-container">
 
                 <div className="header-content">
-                    <img src={profilePhoto} alt="Foto do Perfil" className="profile-photo" />
+                    <img src="Perfil/Perfil.jpg" alt=" Foto do perfil do Desenvolvedor" />
 
                     <p className="name-content">Marcelo Medeiros dos Santos</p>
                 </div>
@@ -19,16 +18,16 @@ const Header = () => {
                 <nav>
 
                     <ul>
-                        <li><i className="fas fa-user-tie"></i><a href="#Introduction">Sobre Mim</a></li>
-                        <li><i className="fas fa-lightbulb"></i><a href="#Developments">Projetos</a></li>
-                        <li><i className="fas fa-trophy"></i><a href="#Certificates">Certificados</a></li>
-                        <li><i className="fas fa-handshake"></i><a href="#contato">Contato</a></li>
+                        <li><a href="#Introduction">Sobre Mim</a></li>
+                        <li><a href="#Developments">Projetos</a></li>
+                        <li><a href="#Certificates">Certificados</a></li>
+                        <li><a href="#contato">Contato</a></li>
                     </ul>
 
                 </nav>
 
             </section>
-            
+
         </header>
     );
 };
