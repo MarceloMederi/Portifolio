@@ -2,7 +2,7 @@ import React from 'react';
 
 const Developments = () => {
     return (
-        <section id="projetos">
+        <section id="Developments">
 
             <h2>Projetos</h2>
 

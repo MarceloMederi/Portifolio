@@ -2,12 +2,12 @@ import React from 'react';
 
 const Certificates = () => {
     return (
-        <section className='certificates'>
-            
+        <section id='Certificates'>
+
             <h2>Certificados</h2>
 
             <div className="certificate-grid">
-                <img src="/Certificados/Azure-AZ-900.png" alt="Certificação Azure 900" />
+                <img src="/Certificados/Azure-Az-900.png" alt="Certificação Azure 900" />
                 <img src="/Certificados/CentOS-7.png" alt="Certificação CentOS 7" />
                 <img src="/Certificados/BI-Empowerdata.png" alt="Certificação BI" />
                 <img src="/Certificados/Computacao-em-Nuvem-AWS-Discovery-Day.png" alt="Certificação AWS" />
