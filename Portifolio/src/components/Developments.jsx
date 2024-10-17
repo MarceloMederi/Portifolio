@@ -1,8 +1,4 @@
 import React from 'react';
-import project2Img from '../../public/text-to-speech/text-to-speech.png';
-import project3Img from '../../public/ConsumoCombustivelReact/ConsumoCombustivelReact.png';
-import project4Img from '../../public/Convert-Documents/Convert-Documents.png';
-import project5Img from '../../public/Calendario-Digital/Calendario-Digital.png';
 
 const Developments = () => {
     return (
