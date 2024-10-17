@@ -24,10 +24,10 @@ Portifolio/
 ├── src/
 │   ├── components/
 │   │   ├── Header.jsx
-│   │   ├── Sobre.jsx
-│   │   ├── Projetos.jsx
-│   │   ├── Certificados.jsx
-│   │   ├── Contato.jsx
+│   │   ├── Introduction.jsx
+│   │   ├── Developments.jsx
+│   │   ├── Certificates.jsx
+│   │   ├── Contact.jsx
 │   │   └── App.jsx
 │   ├── App.css
 │   ├── index.css
