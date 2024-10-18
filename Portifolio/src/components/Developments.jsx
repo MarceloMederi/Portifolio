@@ -1,4 +1,5 @@
 import React from 'react';
+import './styles/Developments.css';
 
 const Developments = () => {
     return (

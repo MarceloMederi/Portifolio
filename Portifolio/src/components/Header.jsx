@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react';
+import './styles/Header.css';
 import Typed from 'typed.js'; // Importando a biblioteca Typed.js
 
 const Header = () => {
@@ -8,8 +9,9 @@ const Header = () => {
                 "Portfólio do Futuro",
                 "Desenvolvedor Front-end apaixonado",
                 "Criando experiências digitais envolventes",
-                "Transformando ideias em realidade com HTML, CSS, JavaScript, Docker e Node",
-                "Explorando o mundo do desenvolvimento com inovações."
+                "Transformando ideias em realidade,",
+                "Com HTML, CSS, JavaScript, Docker e Node",
+                "Explorando o desenvolvimento com inovações."
             ],
             typeSpeed: 80,
             backSpeed: 40,
@@ -31,7 +33,7 @@ const Header = () => {
         <header>
             <section className="ini-container">
                 <div className="header-content">
-                    <img src="Perfil/Perfil.jpg" alt="Foto do perfil do Desenvolvedor" />
+                    <img className='profile-photo' src="Perfil/Perfil.jpg" alt="Foto do perfil do Desenvolvedor" />
                     <p className="name-content">Marcelo Medeiros dos Santos</p>
                 </div>
 

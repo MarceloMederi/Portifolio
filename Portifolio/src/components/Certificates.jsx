@@ -1,4 +1,5 @@
 import React from 'react';
+import './styles/Certificates.css';
 
 const Certificates = () => {
     return (

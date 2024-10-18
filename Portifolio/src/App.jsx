@@ -8,14 +8,26 @@ import './App.css';
 
 function App() {
   return (
-    <>
+    <div>
+      {/* Cabeçalho */}
       <Header />
-      <Introduction />
-      <Developments />
-      <Certificates/>
-      <Contact/>
-    </>
-  )
+
+      <main>
+        {/* Seção de introdução */}
+        <Introduction />
+
+        {/* Seção de projetos */}
+        <Developments />
+
+        {/* Seção de certificados */}
+        <Certificates />
+
+        {/* Seção de contato */}
+        <Contact />
+      </main>
+      
+    </div>
+  );
 }
 
-export default App
+export default App;

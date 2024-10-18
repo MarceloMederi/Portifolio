@@ -1,4 +1,5 @@
 import React from 'react';
+import './styles/Introduction.css';
 
 const Introduction = () => {
     return (
@@ -6,10 +7,8 @@ const Introduction = () => {
 
             <h2>Sobre Mim</h2>
 
-            <p className="on-content">
+            <p>
             Marcelo Medeiros dos Santos
-            Bacharel em Sistemas de Informação | Uberlândia-MG
-
             Sou um profissional de TI apaixonado por tecnologia e desenvolvimento de software, com experiência em suporte técnico e análise de dados.
             Atualmente, trabalho como Técnico de Suporte em TI na Sabin Medicina Diagnóstica, onde aprimoro minhas habilidades em gestão de tickets e desenvolvimento de dashboards com Power BI.
             Além disso, venho me dedicando ao desenvolvimento de projetos em React, enquanto a telemetria ocupa um espaço secundário na minha atuação. 
