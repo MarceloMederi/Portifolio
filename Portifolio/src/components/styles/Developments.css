@@ -1,53 +1,54 @@
 /* Section Styling for Developments */
+/* Estilização da seção de desenvolvimentos */
 #Developments {
-    padding: 100px 50px;
-    background-color: #2c2c2e;
-    color: #DCDCDC;
-    text-align: center;
-    border-radius: 20px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
-    max-width: 98%;
-    margin: 50px auto;
+    padding: 100px 50px; /* Espaçamento interno da seção */
+    background-color: #2c2c2e; /* Cor de fundo escura */
+    color: #DCDCDC; /* Cor do texto em cinza claro */
+    text-align: center; /* Centraliza o texto na seção */
+    border-radius: 20px; /* Bordas arredondadas */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); /* Sombra para dar profundidade */
+    max-width: 98%; /* Largura máxima da seção */
+    margin: 50px auto; /* Margem superior/inferior de 50px e centraliza horizontalmente */
 }
 
 #Developments h2 {
-    font-size: 2.5rem;
-    margin-bottom: 30px;
-    color: white;
+    font-size: 2.5rem; /* Tamanho da fonte do título */
+    margin-bottom: 30px; /* Espaçamento abaixo do título */
+    color: white; /* Cor do texto do título em branco */
 }
 
 h3 {
-    font-size: 1.8em;
-    color: #00BCD4;
+    font-size: 1.8em; /* Tamanho da fonte para subtítulos */
+    color: #00BCD4; /* Cor azul clara para os subtítulos */
 }
+
 #Developments a {
-    color: #4CAF50; 
-    text-decoration: none; 
-    font-weight: bold; 
-    transition: color 0.3s ease; 
+    color: #4CAF50; /* Cor verde para os links */
+    text-decoration: none; /* Remove o sublinhado dos links */
+    font-weight: bold; /* Deixa o texto dos links em negrito */
+    transition: color 0.3s ease; /* Transição suave para a mudança de cor */
 }
 
 #Developments a:hover {
-   color: aqua;
+   color: aqua; /* Cor dos links ao passar o mouse */
 }
 
 .project {
-    margin-bottom: 50px;
+    margin-bottom: 50px; /* Espaçamento abaixo de cada projeto */
 }
 
 .project img {
-    max-width: 60%;
-    height: auto;
-    border-radius: 10px;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+    max-width: 60%; /* Largura máxima da imagem em 60% do contêiner */
+    height: auto; /* Altura automática para manter a proporção */
+    border-radius: 10px; /* Bordas arredondadas para a imagem */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3); /* Sombra ao redor da imagem */
 }
 
-
 .project-content p {
-    font-size: 1rem;
-    color: #aaa;
-    line-height: 1.6;
-    max-width: 600px;
+    font-size: 1rem; /* Tamanho da fonte para parágrafos */
+    color: #aaa; /* Cor do texto em cinza claro */
+    line-height: 1.6; /* Altura da linha para melhor legibilidade */
+    max-width: 600px; /* Largura máxima do conteúdo do projeto */
 }
 
 /* Responsividade para telas menores */
