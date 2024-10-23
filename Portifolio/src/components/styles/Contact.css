@@ -27,14 +27,31 @@
 
 .contact-list a {
     font-weight: bold;
-    color: #FFD700; /* Um tom dourado para destacar os links */
+    color: #FFD700;
     text-decoration: none;
+    position: relative;
+    padding-bottom: 5px;
     transition: color 0.3s ease;
 }
 
 .contact-list a:hover {
-    color: #FFA500; /* Muda o destaque ao passar o mouse */
+    color: #FFA500;
     text-decoration: underline;
+}
+
+.contact-list a::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    left: 0;
+    bottom: 0;
+    background-color: #FFA500;
+    transition: width 0.3s ease;
+}
+
+.contact-list a:hover::after {
+    width: 100%;
 }
 
 /* Ajustes para telas menores */
