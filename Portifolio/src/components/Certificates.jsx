@@ -1,29 +1,31 @@
-import React from 'react';
-import { Swiper, SwiperSlide } from 'swiper/react';
-import 'swiper/swiper-bundle.css';
-import { Autoplay } from 'swiper/modules'; // Importe o módulo Autoplay
-import './styles/Certificates.css';
+import React from 'react'; // Importa a biblioteca React
+import { Swiper, SwiperSlide } from 'swiper/react'; // Importa componentes Swiper e SwiperSlide da biblioteca Swiper
+import 'swiper/swiper-bundle.css'; // Importa o CSS padrão do Swiper
+import { Autoplay } from 'swiper/modules'; // Importa o módulo Autoplay para permitir a reprodução automática dos slides
+import './styles/Certificates.css'; // Importa o arquivo de estilos CSS específico para a seção de certificados
 
 const Certificates = () => {
     return (
-        <section id='Certificates'>
-            <h2>Certificados</h2>
+        <section id='Certificates'> {/* Define a seção de certificados com um ID para referência */}
+            <h2>Certificados</h2> {/* Título da seção */}
 
+            {/* Configuração do Swiper para exibir os certificados em slides */}
             <Swiper
-                modules={[Autoplay]}  // Adicione o Autoplay como um módulo
-                spaceBetween={30}
-                slidesPerView={3}
-                loop={true}
+                modules={[Autoplay]}  // Adiciona o módulo Autoplay para permitir que os slides avancem automaticamente
+                spaceBetween={30} // Define o espaço entre os slides
+                slidesPerView={3} // Número de slides visíveis ao mesmo tempo
+                loop={true} // Permite que a apresentação de slides continue em loop
                 autoplay={{
-                    delay: 2000,
-                    disableOnInteraction: false,
+                    delay: 2000, // Tempo em milissegundos entre cada transição de slide
+                    disableOnInteraction: false, // Mantém o autoplay ativo mesmo após interação do usuário
                 }}
                 breakpoints={{
-                    320: { slidesPerView: 1 },
-                    768: { slidesPerView: 2 },
-                    1024: { slidesPerView: 3 },
+                    320: { slidesPerView: 1 }, // Define 1 slide visível em telas pequenas (até 320px)
+                    768: { slidesPerView: 2 }, // Define 2 slides visíveis em telas médias (até 768px)
+                    1024: { slidesPerView: 3 }, // Define 3 slides visíveis em telas grandes (a partir de 1024px)
                 }}
             >
+                {/* Cada SwiperSlide contém uma imagem de um certificado */}
                 <SwiperSlide>
                     <img src="/Certificados/Azure-Az-900.png" alt="Certificação Azure 900" />
                 </SwiperSlide>
@@ -43,7 +45,7 @@ const Certificates = () => {
                     <img src="/Certificados/Imersao-Dev-Alura.png" alt="Certificação Imersão Dev Alura" />
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img src="/Certificados/Implantacao-de-Governança-TI.png" alt="Certificação Implantação de Governança" />
+                    <img src="/Certificados/Implantacao-de-Governanca-TI.png" alt="Certificação Implantação de Governança" />
                 </SwiperSlide>
                 <SwiperSlide>
                     <img src="/Certificados/Programacao-Algoritimos-Escalaveis.png" alt="Certificação Algoritmos Escaláveis" />
@@ -65,4 +67,4 @@ const Certificates = () => {
     );
 };
 
-export default Certificates;
+export default Certificates; // Exporta o componente Certificates para uso em outras partes da aplicação
