@@ -121,4 +121,4 @@ npm run dev
 Abra http://localhost:3000 no navegador para visualizar o portfólio.
 
 # Contato
-Para mais informações, entre em contato via seu_email@exemplo.com.
+Para mais informações, entre em contato via marcelomederi11@gmail.com.
