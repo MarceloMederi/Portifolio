@@ -1,3 +1,5 @@
+
+```plaintext
 Portifolio/
 │
 ├── public/
@@ -57,3 +59,4 @@ Portifolio/
 ├── index.html
 ├── package.json
 └── vite.config.js
+```
