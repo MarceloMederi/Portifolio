@@ -104,23 +104,20 @@ Abaixo estão os certificados incluídos na pasta public/certificados, cada um r
 # Como Executar
 Clone o repositório:
 
-bash
-Copiar código
+```plaintext
 git clone https://github.com/seu-usuario/portifolio.git
-
+```
+Entre no repositorio:
 cd portifolio
+
 Instale as dependências:
-
-bash
-Copiar código
-
+```plaintext
 npm install
+```
 Execute o projeto localmente:
-
-bash
-Copiar código
-
+```plaintext
 npm run dev
+```
 Abra http://localhost:3000 no navegador para visualizar o portfólio.
 
 # Contato
