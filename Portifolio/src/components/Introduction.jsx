@@ -10,15 +10,9 @@ const Introduction = () => {
 
             <p>
             Marcelo Medeiros dos Santos {/* Nome do profissional */}
-            Sou um profissional de TI apaixonado por tecnologia e desenvolvimento de software, {/* Breve descrição profissional */}
-            com experiência em suporte técnico e análise de dados. {/* Experiência em suporte técnico e análise de dados */}
-            Atualmente, trabalho como Técnico de Suporte em TI na Sabin Medicina Diagnóstica, {/* Descrição do cargo atual e empresa */}
-            onde aprimoro minhas habilidades em gestão de tickets e desenvolvimento de dashboards com Power BI. {/* Habilidades desenvolvidas no trabalho atual */}
-            Além disso, venho me dedicando ao desenvolvimento de projetos em React, {/* Envolvimento com projetos em React */}
-            enquanto a telemetria ocupa um espaço secundário na minha atuação.  {/* Interesses em telemetria */}
-            Nos últimos tempos, tenho focado em inteligência artificial, como reconhecimento facial e de voz para análise de emoções, {/* Foco atual em inteligência artificial */}
-            áreas com grande potencial para aplicações em entrevistas e monitoramento de comportamento. {/* Aplicações práticas da inteligência artificial */}
-            Estou sempre em busca de novas tecnologias e melhores práticas para contribuir efetivamente em um ambiente desafiador. {/* Mentalidade de aprendizado e contribuição */}
+            Sou um profissional de TI entusiasta, com uma forte paixão por tecnologia e desenvolvimento de software. Possuo experiência sólida em suporte técnico e análise de dados, o que me permite entender profundamente as necessidades dos usuários e traduzir essas demandas em soluções eficazes.
+            Atualmente, atuo como Analista de Testes na NTT DATA EUROPE & LATAM, onde tenho a oportunidade de aprimorar minhas habilidades em testes manuais e na elaboração de cenários, sempre respeitando rigorosamente os parâmetros estabelecidos. Além disso, estou profundamente envolvido no desenvolvimento de projetos em React, onde aplico minhas competências técnicas para criar interfaces dinâmicas e responsivas. Embora a telemetria seja um interesse secundário, continuo explorando suas aplicações.
+            Recentemente, direcionei meu foco para a inteligência artificial, buscando automatizar processos e explorar áreas com grande potencial, como entrevistas, monitoramento de comportamento, agilidade em processos e análise de dados. Estou sempre em busca de novas tecnologias e melhores práticas, com o objetivo de contribuir de forma significativa em ambientes desafiadores e inovadores.
             </p>
 
         </section>
