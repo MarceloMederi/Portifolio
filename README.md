@@ -28,7 +28,7 @@ Portifolio/
 │   ├── text-to-speech/
 |   |   └──text-to-speech.png
 |   |
-│   └── certificados/
+│   └── Certificados/
 │       ├── Azure-Az-900.png
 │       ├── CentOS-7.png
 │       ├── Computacao-em-Nuvem-AWS-Discovery-Day.png
