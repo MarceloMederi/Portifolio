@@ -25,8 +25,11 @@ const Certificates = () => {
                     1024: { slidesPerView: 3 }, // Define 3 slides visíveis em telas grandes (a partir de 1024px)
                 }}
                 >
+                {/* teste*/}
+                <SwiperSlide>
+                    <img src="/Azure-Az-900.png" alt="Certificação Azure 900" />
+                </SwiperSlide>
                 {/* Cada SwiperSlide contém uma imagem de um certificado*/}
-
                 <SwiperSlide>
                     <img src="/Certificados/Azure-Az-900.png" alt="Certificação Azure 900" />
                 </SwiperSlide>
