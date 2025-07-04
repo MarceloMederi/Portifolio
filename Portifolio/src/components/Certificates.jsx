@@ -31,7 +31,7 @@ const Certificates = () => {
                 </SwiperSlide>
                 {/* Cada SwiperSlide contém uma imagem de um certificado*/}
                 <SwiperSlide>
-                    <img src="./Certificados/Azure-Az-900.png" alt="Certificação Azure 900" />
+                    <img src="/Certificados/Azure-Az-900.png" alt="Certificação Azure 900" />
                 </SwiperSlide>
                 <SwiperSlide>
                     <img src="/Certificados/CentOS-7.png" alt="Certificação CentOS 7" />
