@@ -20,11 +20,11 @@ const Certificates = () => {
                     disableOnInteraction: false, // Mantém o autoplay ativo mesmo após interação do usuário
                 }}
                 breakpoints={{
-                    320: { slidesPerView: 1 }, // Define 1 slide visível em telas pequenas (até 320px)
+                    200: { slidesPerView: 1 }, // Define 1 slide visível em telas pequenas (até 200px)
                     768: { slidesPerView: 2 }, // Define 2 slides visíveis em telas médias (até 768px)
                     1024: { slidesPerView: 3 }, // Define 3 slides visíveis em telas grandes (a partir de 1024px)
                 }}
-                >
+            >
 
                 {/* Cada SwiperSlide contém uma imagem de um certificado*/}
                 <SwiperSlide>
