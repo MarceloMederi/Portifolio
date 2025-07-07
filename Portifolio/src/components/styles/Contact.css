@@ -1,4 +1,4 @@
-/* Define o estilo geral da seção de contato: espaçamento, cor de fundo, cor do texto, alinhamento e bordas arredondadas */
+/* Define o estilo geral da seção de contato */
 #Contact {
     padding: 100px 50px; /* Espaçamento interno */
     background-color: #2c2c2e; /* Cor de fundo escura */
@@ -10,7 +10,7 @@
     margin: 50px auto; /* Centraliza a seção horizontalmente e adiciona margem superior/inferior */
 }
 
-/* Define o estilo do título da seção de contato: tamanho da fonte, espaçamento e cor */
+/* Define o estilo do título da seção de contato */
 #Contact h2 {
     font-size: 2.5rem; /* Tamanho do texto do título */
     margin-bottom: 30px; /* Espaçamento abaixo do título */
@@ -29,7 +29,7 @@
     font-size: 1.2rem; /* Tamanho do texto dos itens */
 }
 
-/* Define o estilo dos links de contato: cor, negrito, e transição ao passar o mouse */
+/* Define o estilo dos links de contato */
 .contact-list a {
     font-weight: bold; /* Negrito nos links */
     color: #FFD700; /* Cor dourada para os links */
@@ -39,7 +39,7 @@
     transition: color 0.3s ease; /* Animação suave para mudança de cor ao passar o mouse */
 }
 
-/* Define o comportamento dos links ao passar o mouse: mudança de cor e sublinhado */
+/* Define o comportamento dos links ao passar o mouse */
 .contact-list a:hover {
     color: #FFA500; /* Muda a cor para laranja */
     text-decoration: underline; /* Adiciona sublinhado */
@@ -62,15 +62,17 @@
     width: 100%; /* O sublinhado cresce para a largura total do link */
 }
 
-/* Ajustes para dispositivos móveis: diminui o espaçamento e o tamanho do título */
+/* Ajustes para dispositivos móveis */
 @media (max-width: 768px) {
-    /* Reduz o espaçamento interno da seção de contato em telas menores */
     #Contact {
         padding: 50px 20px; /* Diminui o padding para telas menores */
     }
 
-    /* Reduz o tamanho da fonte do título em telas menores */
     #Contact h2 {
         font-size: 2rem; /* Reduz o tamanho do texto do título */
+    }
+
+    .contact-list li {
+        font-size: 1rem; /* Reduz o tamanho do texto dos itens em telas menores */
     }
 }
