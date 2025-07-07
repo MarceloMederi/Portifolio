@@ -1,5 +1,4 @@
 /* Section Styling for Developments */
-/* Estilização da seção de desenvolvimentos */
 #Developments {
     padding: 100px 50px; /* Espaçamento interno da seção */
     background-color: #2c2c2e; /* Cor de fundo escura */
@@ -20,6 +19,7 @@
 h3 {
     font-size: 1.8em; /* Tamanho da fonte para subtítulos */
     color: #00BCD4; /* Cor azul clara para os subtítulos */
+    margin-bottom: 20px; /* Espaçamento abaixo dos subtítulos */
 }
 
 #Developments a {
@@ -35,10 +35,21 @@ h3 {
 
 .project {
     margin-bottom: 50px; /* Espaçamento abaixo de cada projeto */
+    display: flex; /* Usar flexbox para o layout do projeto */
+    flex-direction: column; /* Colocar os itens em coluna */
+    align-items: center; /* Centraliza os itens */
+    text-align: center; /* Centraliza o texto */
+}
+
+.project-content {
+    display: flex; /* Usar flexbox para o layout do conteúdo */
+    flex-direction: column; /* Colocar os itens em coluna */
+    align-items: center; /* Centraliza os itens */
+    text-align: center; /* Centraliza o texto */
 }
 
 .project img {
-    max-width: 60%; /* Largura máxima da imagem em 60% do contêiner */
+    max-width: 100%; /* Largura máxima da imagem em 100% do contêiner */
     height: auto; /* Altura automática para manter a proporção */
     border-radius: 10px; /* Bordas arredondadas para a imagem */
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3); /* Sombra ao redor da imagem */
@@ -53,17 +64,28 @@ h3 {
 
 /* Responsividade para telas menores */
 @media (max-width: 768px) {
+    #Developments {
+        padding: 50px 20px; /* Ajusta o padding em telas menores */
+    }
+
+    .project {
+        margin-bottom: 30px; /* Reduz o espaçamento entre projetos */
+    }
+
     .project-content {
-        flex-direction: column; /* Empilha em coluna em telas menores */
+        flex-direction: column; /* Mantém a direção em coluna */
         align-items: center; /* Centraliza os itens */
-        text-align: center; /* Centraliza o texto */
     }
 
     .project img {
         max-width: 100%; /* Imagem ocupa toda a largura em telas pequenas */
     }
 
-    .project-details {
-        flex-direction: column; /* Para telas pequenas, empilha descrição, tecnologias e links */
+    h3 {
+        font-size: 1.5em; /* Ajusta o tamanho da fonte dos subtítulos em telas menores */
+    }
+
+    .project-content p {
+        font-size: 0.9rem; /* Ajusta o tamanho da fonte dos parágrafos em telas menores */
     }
 }
