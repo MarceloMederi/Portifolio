@@ -7,6 +7,7 @@
   border-radius: 20px; /* Bordas arredondadas para um visual mais suave */
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); /* Sombra suave ao redor da seção para dar destaque */
   max-width: 98%; /* Define uma largura máxima da seção */
+  min-width: 300px; /* Define uma largura mínima da seção */
   margin: 50px auto; /* Centraliza o conteúdo na página, com margem superior e inferior */
 }
 
@@ -16,12 +17,12 @@
   color: white; /* Cor do título, para se destacar do fundo escuro */
 }
 
-#Introduction p {
+.introduction-text {
   font-size: 1.2rem; /* Tamanho da fonte para o parágrafo */
   color: #aaa; /* Cor do texto do parágrafo */
   line-height: 1.6; /* Altura da linha para melhorar a legibilidade */
   max-width: 100%; /* Garante que o parágrafo não ultrapasse a largura máxima da seção */
-  margin: 0 auto; /* Centraliza o parágrafo dentro da seção */
+  margin: 0 auto 20px; /* Centraliza o parágrafo e adiciona espaçamento inferior */
 }
 
 /* Responsividade para telas menores */
@@ -34,7 +35,7 @@
       font-size: 2rem; /* Reduz o tamanho da fonte do título em telas menores */
   }
 
-  #Introduction p {
+  .introduction-text {
       font-size: 1rem; /* Reduz o tamanho da fonte do parágrafo em telas menores */
   }
 }
