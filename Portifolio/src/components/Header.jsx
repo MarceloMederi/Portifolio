@@ -4,7 +4,6 @@ import Typed from 'typed.js'; // Importando a biblioteca Typed.js
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faUser, faCode, faCertificate, faEnvelope } from '@fortawesome/free-solid-svg-icons';
 
-
 const Header = () => {
     useEffect(() => {
         const options = {
@@ -34,47 +33,34 @@ const Header = () => {
 
     return (
         <header>
-
             <section className="ini-container">
-
                 <div className="header-content">
                     <img className='profile-photo' src="Perfil/Perfil.jpg" alt="Foto do perfil do Desenvolvedor" />
                     <p className="name-content">Marcelo Medeiros dos Santos</p>
+                    <h1><strong><span className="typed-text"></span></strong></h1>
+                    <p>Desenvolvedor Front-end (HTML, CSS, JS, REACT, DOCKER e NODE)</p>
+                    <nav>
+                        <ul>
+                            <li>
+                                <FontAwesomeIcon icon={faUser} />
+                                <a href="#Introduction">Sobre Mim</a>
+                            </li>
+                            <li>
+                                <FontAwesomeIcon icon={faCode} />
+                                <a href="#Developments">Projetos</a>
+                            </li>
+                            <li>
+                                <FontAwesomeIcon icon={faCertificate} />
+                                <a href="#Certificates">Certificados</a>
+                            </li>
+                            <li>
+                                <FontAwesomeIcon icon={faEnvelope} />
+                                <a href="#Contact">Contato</a>
+                            </li>
+                        </ul>
+                    </nav>
                 </div>
-
-                <h1><strong><span className="typed-text"></span></strong></h1>
-
-                <p>Desenvolvedor Front-end (HTML, CSS, JS, REACT, DOCKER e NODE)</p>
-
-                <nav>
-                    <ul>
-                        
-                        <li>
-                            <FontAwesomeIcon icon={faUser} />
-                            <a href="#Introduction">Sobre Mim</a>
-                        </li>
-
-                        <li>
-                            <FontAwesomeIcon icon={faCode} />
-                            <a href="#Developments">Projetos</a>
-                        </li>
-
-                        <li>
-                            <FontAwesomeIcon icon={faCertificate} />
-                            <a href="#Certificates">Certificados</a>
-                        </li>
-
-                        <li>
-                            <FontAwesomeIcon icon={faEnvelope} />
-                            <a href="#Contact">Contato</a>
-                        </li>
-
-                    </ul>
-
-                </nav>
-
             </section>
-
         </header>
     );
 };

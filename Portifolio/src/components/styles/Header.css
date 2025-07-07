@@ -16,7 +16,6 @@ header {
   background-attachment: fixed; /* Efeito Parallax */
 }
 
-
 .header-content {
   position: relative;
   z-index: 2;
@@ -36,7 +35,6 @@ header {
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
 }
 
-
 .name-content {
   color: #DCDCDC;
   font-size: 2rem;
@@ -50,7 +48,7 @@ h1 {
 
 .typed-text {
   font-size: 1.6rem;
-  color: 	#DCDCDC;
+  color: #DCDCDC;
 }
 
 p {
@@ -58,7 +56,6 @@ p {
   color: #aaa;
   margin-top: 20px;
 }
-
 
 /* Navigation Styling */
 nav ul {
@@ -96,11 +93,13 @@ nav ul li a:hover {
 section {
   padding: 100px 50px;
   background-color: #2c2c2e;
+  min-width: 300px; /* Define uma largura mínima para a seção */
 }
 
-@media (max-width: 768px) {
+/* Media Queries para responsividade */
+@media (max-width: 678px) {
   header {
-    height: 70vh;
+    height: auto; /* Ajusta a altura para conteúdo dinâmico */
     padding: 30px 10px;
   }
 
@@ -120,6 +119,18 @@ section {
   p {
     font-size: 1rem;
   }
+
+  nav ul {
+    flex-direction: column; /* Muda a direção dos itens da nav para coluna em telas menores */
+    gap: 10px; /* Reduz o espaço entre os itens da nav */
+    margin-top: 10px; /* Ajusta o espaçamento superior */
+  }
+
+  nav ul li {
+    font-size: 1rem; /* Reduz o tamanho da fonte dos itens da nav */
+  }
+
+  nav ul li a {
+    padding: 10px; /* Ajusta o padding para itens menores */
+  }
 }
-
-
