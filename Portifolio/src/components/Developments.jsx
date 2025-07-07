@@ -9,12 +9,13 @@ const Developments = () => {
 
             {/* Artigo para o projeto Emoção_Flask */}
             <article className="project">
-                <h3>Emoção_Flask</h3> {/* Subtítulo do projeto */}
+                <h3>Study English</h3> {/* Subtítulo do projeto */}
                 <div>
-                    <img src="/Emocao_Flask/Emocao_Flask.png" alt="Print do projeto Emocao Flask" /> {/* Imagem do projeto */}
-                    <p><strong>Descrição:</strong>  Uma aplicação Flask que utiliza detecção de emoções em tempo real a partir de vídeo, capturando imagens da webcam e analisando as emoções das faces detectadas.</p>
-                    <p><strong>Tecnologias:</strong> Python, OpenCV, DeepFace, Flask, HTML.</p>
-                    <a href="https://github.com/MarceloMederi/Emocao_Flask" target="_blank" rel="noopener noreferrer">GitHub</a> | <a href="#">Demo</a> {/* Links para o GitHub e a demonstração do projeto */}
+                    <img src="/StudyEnglish/Study_English.png" alt="Print do projeto Study_English" /> {/* Imagem do projeto */}
+                    <p><strong>Descrição:</strong>  Um projeto simples para ajudar os usuários a praticar o inglês através de perguntas de diferentes níveis de dificuldade.
+                    O aplicativo apresenta perguntas e permite que os usuários insiram suas respostas, recebendo feedback imediato sobre sua precisão.</p>
+                    <p><strong>Tecnologias:</strong> HTML,CSS e JS</p>
+                    <a href="https://github.com/MarceloMederi/Study_English" target="_blank" rel="noopener noreferrer">GitHub</a> | <a href="https://study-english-beta.vercel.app/" target='_blank'>Demo</a> {/* Links para o GitHub e a demonstração do projeto */}
                 </div>  
             </article>
 
