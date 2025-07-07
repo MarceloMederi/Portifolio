@@ -15,6 +15,7 @@ const Developments = () => {
                     <p><strong>Descrição:</strong>  Um projeto simples para ajudar os usuários a praticar o inglês através de perguntas de diferentes níveis de dificuldade.
                     O aplicativo apresenta perguntas e permite que os usuários insiram suas respostas, recebendo feedback imediato sobre sua precisão.</p>
                     <p><strong>Tecnologias:</strong> HTML,CSS e JS</p>
+                    <p><strong>Destaque:</strong> Com três níveis de dificuldade, Feedback imediato e com a interface responsiva </p>
                     <a href="https://github.com/MarceloMederi/Study_English" target="_blank" rel="noopener noreferrer">GitHub</a> | <a href="https://study-english-beta.vercel.app/" target='_blank'>Demo</a> {/* Links para o GitHub e a demonstração do projeto */}
                 </div>  
             </article>
