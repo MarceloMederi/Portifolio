@@ -25,46 +25,43 @@ const Certificates = () => {
                     1024: { slidesPerView: 3 }, // Define 3 slides visíveis em telas grandes (a partir de 1024px)
                 }}
                 >
-                {/* teste*/}
-                <SwiperSlide>
-                    <img src="/Azure-Az-900.png" alt="Certificação Azure 900" />
-                </SwiperSlide>
+
                 {/* Cada SwiperSlide contém uma imagem de um certificado*/}
                 <SwiperSlide>
-                    <img src="/Certificados/Azure-Az-900.png" alt="Certificação Azure 900" />
+                    <img src="/Diploma/Azure-Az-900.png" alt="Certificação Azure 900" />
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img src="/Certificados/CentOS-7.png" alt="Certificação CentOS 7" />
+                    <img src="/Diploma/CentOS-7.png" alt="Certificação CentOS 7" />
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img src="/Certificados/BI-Empowerdata.png" alt="Certificação BI" />
+                    <img src="/Diploma/BI-Empowerdata.png" alt="Certificação BI" />
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img src="/Certificados/Computacao-em-Nuvem-AWS-Discovery-Day.png" alt="Certificação AWS" />
+                    <img src="/Diploma/Computacao-em-Nuvem-AWS-Discovery-Day.png" alt="Certificação AWS" />
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img src="/Certificados/Gerencia-de-Projetos-TI.png" alt="Certificação Gerência de Projetos" />
+                    <img src="/Diploma/Gerencia-de-Projetos-TI.png" alt="Certificação Gerência de Projetos" />
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img src="/Certificados/Imersao-Dev-Alura.png" alt="Certificação Imersão Dev Alura" />
+                    <img src="/Diploma/Imersao-Dev-Alura.png" alt="Certificação Imersão Dev Alura" />
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img src="/Certificados/Implantacao-de-Governanca-TI.png" alt="Certificação Implantação de Governança" />
+                    <img src="/Diploma/Implantacao-de-Governanca-TI.png" alt="Certificação Implantação de Governança" />
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img src="/Certificados/Programacao-Algoritimos-Escalaveis.png" alt="Certificação Algoritmos Escaláveis" />
+                    <img src="/Diploma/Programacao-Algoritimos-Escalaveis.png" alt="Certificação Algoritmos Escaláveis" />
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img src="/Certificados/Programacao-para-Dispositivos-Moveis.png" alt="Certificação Programação Móveis" />
+                    <img src="/Diploma/Programacao-para-Dispositivos-Moveis.png" alt="Certificação Programação Móveis" />
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img src="/Certificados/Programacao-para-internet.png" alt="Certificação Programação para Internet" />
+                    <img src="/Diploma/Programacao-para-internet.png" alt="Certificação Programação para Internet" />
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img src="/Certificados/Scrum-Foundation.png" alt="Certificação Scrum Foundation" />
+                    <img src="/Diploma/Scrum-Foundation.png" alt="Certificação Scrum Foundation" />
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img src="/Certificados/Virtualizacao-VMware-vShere-6.7.png" alt="Certificação VMware vSphere" />
+                    <img src="/Diploma/Virtualizacao-VMware-vShere-6.7.png" alt="Certificação VMware vSphere" />
                 </SwiperSlide>
             </Swiper>
         </section>
