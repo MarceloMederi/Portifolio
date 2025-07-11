@@ -27,7 +27,7 @@ const Developments = () => {
                     <p><strong>Descrição:</strong> Conversor de Texto para Áudio com uma interface amigável e um modo acessível, pensado especialmente para pessoas com daltonismo. O usuário pode inserir texto, convertê-lo em áudio, limpar o campo de texto e alternar entre temas, melhorando a acessibilidade visual.</p>
                     <p><strong>Tecnologias:</strong> Node, HTML, CSS e JS</p>
                     <p><strong>Destaque:</strong> O destaque do projeto é sua acessibilidade. O Conversor de Texto para Áudio foi pensado para atender não apenas à necessidade de converter texto em áudio, mas também para ser acessível a pessoas com daltonismo.</p>
-                    <a href="https://github.com/MarceloMederi/Text-to-Speech/tree/main" target="_blank" rel="noopener noreferrer">GitHub</a> | <a href="https://text-to-speech-l03dtt6yh-marcelomederis-projects.vercel.app/" target="_blank" rel="noopener noreferrer">Demo</a> {/* Links para o GitHub e a demonstração do projeto */}
+                    <a href="https://github.com/MarceloMederi/Text-to-Speech/tree/main" target="_blank" rel="noopener noreferrer">GitHub</a> | <a href="https://text-to-speech-43v9.vercel.app/" target="_blank" rel="noopener noreferrer">Demo</a> {/* Links para o GitHub e a demonstração do projeto */}
                 </div>
             </article>
 
